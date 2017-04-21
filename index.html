@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="navbar navbar-inverse">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">ZaxidNetClone</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">
+                                <i class="glyphicon glyphicon-user"></i>
+                                Автори та статті
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">Анонси</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-3 pull-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <img src="images/5cCsMhWzoH0.jpg" alt="" class="alex img-rounded">
+                    </li>
+                    <li>
+                        <a href="#">Привіт, Олександр</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-off"></i>
+                            Вийти
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <legend>
+        <h1>Панель управління авторами і статтями</h1>
+    </legend>
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                    <span>Автори
+                    <i class="glyphicon glyphicon-plus"></i></span>
+                        </div>
+                        <div class="btn-group btn-group-xs col-xs-6 pull-right">
+                            <button class="btn btn-danger">
+                                <i class="glyphicon glyphicon-trash"></i>
+                                Видалити
+                            </button>
+                            <button class="btn btn-warning">
+                                <i class="glyphicon glyphicon-ban-circle"></i>
+                                Заборонити
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item active">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                                <button class="btn btn-warning btn-xs">
+                                    Запит на публікацію
+                                </button>
+                            </div>
+                            <div class="pull-right">
+                                <span class="badge">Блогер</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item list-group-item-warning ">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                                <button class="btn btn-warning btn-xs">
+                                    Запит на публікацію
+                                </button>
+                            </div>
+                            <div class="pull-right">
+                                <span class="badge">Репортер</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item list-group-item-warning">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                                <button class="btn btn-warning btn-xs">
+                                    Запит на публікацію
+                                </button>
+                            </div>
+                            <div class="pull-right ">
+                                <span class="badge">Автор новин</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                            </div>
+                            <div class="pull-right">
+                                <span class="badge">Автор новин</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                            </div>
+                            <div class="pull-right">
+                                <span class="badge">Автор новин</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item list-group-item-danger">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <a href="http://placehold.it"><img src="http://placehold.it/200x200" class="img-thumbnail"></a>
+                            </div>
+                            <div class="col-xs-5">
+                                Імя користувача
+                                <button class="btn btn-danger btn-xs">
+                                    Заблокований
+                                </button>
+                            </div>
+                            <div class="pull-right">
+                                <span class="badge">Блогер</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                    <div class="panel-heading">
+                <div class="btn-group btn-group-sm">
+                    <button class="btn btn-default">
+                        <a href="#"><<</a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="">1</a>
+                    </button>
+                    <button class="btn btn-primary">2
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="#">3</a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="#">4</a>
+                    </button>
+                    <button class="btn btn-default">
+                        <a href="#">>></a>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="col-xs-8 row">
+                 <div class="first-section row clearfix form-group">
+                     <div class="col-xs-6">
+                      <label class="col-xs-5">
+                    Фото
+                </label>
+                         <div class="col-xs-7">
+                             <a href="http://placehold.it"><img src="http://placehold.it/960x540" class="img-thumbnail"></a>
+                             <a href="#" class="under-photo">
+                                 <i class="glyphicon glyphicon-transfer"></i>Змінити</a>
+                         </div>
+                     </div>
+                     <div class="col-xs-6 ">
+                         <label for="sel1" class="col-xs-4">
+                             Тип
+                         </label>
+                         <div class="form-group col-xs-8">
+                             <select class="form-control" id="sel1">
+                                 <option>This is item 1</option>
+                                 <option>This is item 2</option>
+                                 <option>This is item 3</option>
+                                 <option>This is item 4</option>
+                             </select>
+                         </div>
+                     </div>
+                 </div>
+             <div class="second-section row clearfix form-group">
+                 <div class="col-xs-6">
+                     <label for="email" class="col-xs-5">
+                         Email
+                     </label>
+                     <div class="col-xs-7">
+                         <input type="text" class="form-control" id="email">
+                     </div>
+                 </div>
+                 <div class="col-xs-6 ">
+                     <label for="name" class="col-xs-4">
+                         ФІО
+                     </label>
+                     <div class="form-group col-xs-8 pull-right">
+                         <input type="text" class="form-control" id="name">
+                     </div>
+                 </div>
+
+
+             <div class="btn-group pull-right form-group">
+                 <button class="btn btn-primary">
+                     <i class="glyphicon glyphicon-floppy-save"></i>Зберегти</button>
+                 <button class="btn btn-default">Скасувати</button>
+             </div>
+             </div>
+             <div class="panel panel-default">
+                 <div class="panel-heading">
+                     <span>
+                         Статті користувача
+                     </span>
+                     <span class="badge pull-right">3</span>
+                 </div>
+                 <div class="panel-body">
+                     <div class="row">
+                         <div class="col-xs-5">
+                             <span class="span-panel">Заголовок статті</span>
+                         </div>
+                         <div class="col-xs-2 pull-right">
+                             <span class="span-panel">Опції</span>
+                         </div>
+                     </div>
+                 </div>
+                     <ul class="list-group">
+                         <li class="list-group-item list-group-item-info ">
+
+                             <span class=" li-item">Якась стаття</span>
+                             <div class="btn-group btn-group-sm  pull-right">
+                                 <button class="btn btn-info">
+                                     <i class="glyphicon glyphicon-eye-open"></i>
+                                 </button>
+                                 <button class="btn btn-success">
+                                     <i class="glyphicon glyphicon-ok"></i>
+                                 </button>
+                                 <button class="btn btn-warning">
+                                     <i class="glyphicon glyphicon-warning-sign"></i>
+                                 </button>
+                                 <button class="btn btn-danger">
+                                     <i class="glyphicon glyphicon-ban-circle"></i>
+                                 </button>
+                             </div>
+
+                         </li>
+                         <li class="list-group-item list-group-item-info ">
+                                 <span class=" li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item list-group-item-info ">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item list-group-item-success">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item list-group-item-danger">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item list-group-item-warning">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                         <li class="list-group-item">
+                                 <span class="li-item">Якась стаття</span>
+                                 <div class="btn-group btn-group-sm pull-right">
+                                     <button class="btn btn-info">
+                                         <i class="glyphicon glyphicon-eye-open"></i>
+                                     </button>
+                                     <button class="btn btn-success">
+                                         <i class="glyphicon glyphicon-ok"></i>
+                                     </button>
+                                     <button class="btn btn-warning">
+                                         <i class="glyphicon glyphicon-warning-sign"></i>
+                                     </button>
+                                     <button class="btn btn-danger">
+                                         <i class="glyphicon glyphicon-ban-circle"></i>
+                                     </button>
+                                 </div>
+                         </li>
+                     </ul>
+                 <div class="panel-heading">
+                     <div class="btn-group btn-group-sm">
+                         <button class="btn btn-default">
+                             <a href="#"><<</a>
+                         </button>
+                         <button class="btn btn-default">
+                             <a href="">1</a>
+                         </button>
+                         <button class="btn btn-primary">2
+                         </button>
+                         <button class="btn btn-default">
+                             <a href="#">3</a>
+                         </button>
+                         <button class="btn btn-default">
+                             <a href="#">4</a>
+                         </button>
+                         <button class="btn btn-default">
+                             <a href="#">>></a>
+                         </button>
+                     </div>
+                 </div>
+             </div>
+             </div>
+             </div>
+         </div>
+</body>
+</html>
